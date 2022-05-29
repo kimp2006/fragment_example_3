@@ -14,14 +14,13 @@
         android:layout_margin="10dp"
         android:background="@drawable/ic_launcher_background"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/title1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Title"
+        android:text="Title 1"
         android:textSize="24sp"
         app:layout_constraintStart_toEndOf="@+id/imageView1"
         app:layout_constraintTop_toTopOf="@+id/imageView1" />
@@ -30,11 +29,10 @@
         android:id="@+id/description1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Description"
+        android:text="Description 1"
         app:layout_constraintBottom_toBottomOf="@+id/imageView1"
         app:layout_constraintStart_toEndOf="@+id/imageView1"
-        app:layout_constraintTop_toTopOf="@+id/title1"
-        />
+        app:layout_constraintTop_toTopOf="@+id/title1" />
 
 
     <ImageView
@@ -44,26 +42,23 @@
         android:layout_margin="10dp"
         android:background="@drawable/ic_launcher_background"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/imageView1"
-        />
+        app:layout_constraintTop_toBottomOf="@id/imageView1" />
 
     <TextView
         android:id="@+id/title2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Title"
+        android:text="Title 2"
         android:textSize="24sp"
         app:layout_constraintStart_toEndOf="@+id/imageView2"
-        app:layout_constraintTop_toTopOf="@id/imageView2"
-        />
+        app:layout_constraintTop_toTopOf="@id/imageView2" />
 
     <TextView
         android:id="@+id/description2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Description"
+        android:text="Description 2"
         app:layout_constraintBottom_toBottomOf="@+id/imageView2"
         app:layout_constraintStart_toEndOf="@+id/imageView2"
-        app:layout_constraintTop_toTopOf="@+id/title2"
-        />
+        app:layout_constraintTop_toTopOf="@+id/title2" />
 </androidx.constraintlayout.widget.ConstraintLayout>
